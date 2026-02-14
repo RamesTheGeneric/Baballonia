@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Linq;
 using Baballonia.Helpers;
 using Baballonia.Models;
-using Baballonia.Services;
 using Microsoft.Extensions.Logging;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -35,7 +33,7 @@ namespace Baballonia.Tests.FirmwareTests
         public void TestBoard()
         {
             var session = new FirmwareSessionV1(new SerialCommandSender(PORT), _logger);
-            Assert.IsNotNull(session.WaitForHeartbeat());
+            Assert.IsNotNull(session.WaitForHeartbeat(TimeSpan.FromSeconds(10)));
         }
 
         [TestMethod]
@@ -43,7 +41,7 @@ namespace Baballonia.Tests.FirmwareTests
         {
             var session = new FirmwareSessionV1(new SerialCommandSender(PORT), _logger);
 
-            session.WaitForHeartbeat();
+            session.WaitForHeartbeat(TimeSpan.FromSeconds(10));
             session.SendCommand(new FirmwareRequests.SetPausedRequest(true), TimeSpan.FromSeconds(30));
             var networks = session.SendCommand(new FirmwareRequests.ScanWifiRequest(), TimeSpan.FromSeconds(30));
             Assert.IsTrue(networks.IsSuccess);
@@ -70,7 +68,7 @@ namespace Baballonia.Tests.FirmwareTests
         {
             var session = new FirmwareSessionV1(new SerialCommandSender(PORT), _logger);
 
-            session.WaitForHeartbeat();
+            session.WaitForHeartbeat(TimeSpan.FromSeconds(10));
             session.SendCommand(new FirmwareRequests.SetPausedRequest(true), TimeSpan.FromSeconds(30));
             var networks = session.SendCommand(new FirmwareRequests.ScanWifiRequest(), TimeSpan.FromSeconds(30));
             Assert.IsTrue(networks.IsSuccess);

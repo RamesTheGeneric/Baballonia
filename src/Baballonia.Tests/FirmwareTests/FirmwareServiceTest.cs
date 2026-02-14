@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using Baballonia.Contracts;
-using Baballonia.Helpers;
 using Baballonia.Models;
 using Baballonia.Services;
 using Microsoft.Extensions.Logging;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 
@@ -87,7 +84,7 @@ namespace Baballonia.Tests.FirmwareTests
             var firmwareService = CreateService(mockLines);
 
             var session = firmwareService.StartSession(CommandSenderType.Serial, "COM4");
-            session.WaitForHeartbeat();
+            session.WaitForHeartbeat(TimeSpan.FromSeconds(10));
 
             var results = session.SendCommand(new FirmwareRequests.GetWifiStatusRequest(), TimeSpan.FromSeconds(10));
             Assert.AreEqual("192.168.0.246", results.Value!.IpAddress);
@@ -128,7 +125,7 @@ namespace Baballonia.Tests.FirmwareTests
 
             var firmwareService = CreateService(mockLines);
             var session = firmwareService.StartSession(CommandSenderType.Serial, "COM4");
-            session.WaitForHeartbeat();
+            session.WaitForHeartbeat(TimeSpan.FromSeconds(10));
 
             var commandResult = session.SendCommand(new FirmwareRequests.SetPausedRequest(true), TimeSpan.FromSeconds(10));
             Assert.AreEqual("""

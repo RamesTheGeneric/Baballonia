@@ -1,7 +1,5 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Baballonia.Desktop.Calibration;
-using Baballonia.Desktop.Trainer;
 using JetBrains.Annotations;
 using Microsoft.Extensions.Logging;
 using Microsoft.VisualStudio.TestTools.UnitTesting;

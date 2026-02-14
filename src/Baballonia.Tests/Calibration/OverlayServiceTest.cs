@@ -1,19 +1,7 @@
-﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
-using Baballonia.Contracts;
+﻿using System.Threading.Tasks;
 using Baballonia.Desktop.Calibration;
-using Baballonia.Desktop.Calibration.Aero;
-using Baballonia.Desktop.Trainer;
-using Baballonia.Helpers;
-using Baballonia.Services;
-using Baballonia.Services.events;
 using JetBrains.Annotations;
-using Microsoft.Extensions.Logging;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
-using OpenCvSharp;
-using OverlaySDK.Packets;
 
 namespace Baballonia.Tests.Calibration;
 
