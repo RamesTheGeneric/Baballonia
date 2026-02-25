@@ -223,10 +223,10 @@
     <value>調整</value>
   </data>
   <data name="Calibration_Reset_Minimums" xml:space="preserve">
-    <value>Reset Minimums</value>
+    <value>最小値をリセット</value>
   </data>
   <data name="Calibration_Reset_Maximums" xml:space="preserve">
-    <value>Reset Maximums</value>
+    <value>最大値をリセット</value>
   </data>
   <data name="Calibration_Eye_Expressions_Header" xml:space="preserve">
     <value>目の表現</value>
@@ -819,8 +819,8 @@ Wi-Fi認証情報を入力する必要はありません。トラッカーを「
   </data>
 <data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
     <value>回避策:
-- Steam scout 1.0 ランタイム（sniper 3.0 ではない）を試す、libudev をインストールする、ソースからビルドする、または plugdev グループに参加する。
-- Steam と tarball リリースのみサポートしており、AUR パッケージはサポートしていません。
-- Babble ボードは Linux で UVC/シリアルをサポートしていないため、ワイヤレス構成を使用してください。</value>
+• Steam scout 1.0 ランタイム（sniper 3.0 ではない）を試す、libudev をインストールする、ソースからビルドする、または plugdev グループに参加する。
+• Steam と tarball リリースのみサポートしており、AUR パッケージはサポートしていません。
+• Babble ボードは Linux で UVC/シリアルをサポートしていないため、ワイヤレス構成を使用してください。</value>
   </data>
 </root>

@@ -223,10 +223,10 @@
     <value>Kalibrering</value>
   </data>
   <data name="Calibration_Reset_Minimums" xml:space="preserve">
-    <value>Reset Minimums</value>
+    <value>Nullstill Minimum</value>
   </data>
   <data name="Calibration_Reset_Maximums" xml:space="preserve">
-    <value>Reset Maximums</value>
+    <value>Nullstill Maksimum</value>
   </data>
   <data name="Calibration_Eye_Expressions_Header" xml:space="preserve">
     <value>Øyeuttrykk</value>
@@ -319,7 +319,7 @@
     <value>ADVARSEL! DENNE VIL FULLFØRE TILGJENGELIG DIN TRACKER. DU VIL IKKE FOR Å PERFORERTE FØRSTE GANG TIL OPPEN FELLES DINE TRACKER.</value>
   </data>
   <data name="Firmware_Flashing_Button" xml:space="preserve">
-    <value>Flash firmware</value>
+    <value>Flash Firmware</value>
   </data>
   <data name="Firmware_Flashing_Note" xml:space="preserve">
     <value>Dette tar omtrent 10 sekunder. Ikke forlat denne siden!</value>

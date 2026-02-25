@@ -223,10 +223,10 @@
     <value>Calibration</value>
   </data>
   <data name="Calibration_Reset_Minimums" xml:space="preserve">
-    <value>Reset Minimums</value>
+    <value>Minimumları Sıfırla</value>
   </data>
   <data name="Calibration_Reset_Maximums" xml:space="preserve">
-    <value>Reset Maximums</value>
+    <value>Maksimumları Sıfırla</value>
   </data>
   <data name="Calibration_Eye_Expressions_Header" xml:space="preserve">
     <value>Eye Expressions</value>
@@ -319,7 +319,7 @@
     <value>CAUTION!! THIS WILL FACTORY RESET YOUR TRACKER. YOU WILL NEED TO PERFORM A FIRST TIME SET UP AFTER FLASHING YOUR TRACKER.</value>
   </data>
   <data name="Firmware_Flashing_Button" xml:space="preserve">
-    <value>Flash Firmware</value>
+    <value>Firmware Yaz</value>
   </data>
   <data name="Firmware_Flashing_Note" xml:space="preserve">
     <value>This will take around ~10 seconds. Don't leave this page!</value>
@@ -819,8 +819,8 @@ Bu genellikle kolayca düzeltilebilir! Sadece aşağıdaki "Takip Kaybı Düzelt
   </data>
 <data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
     <value>Geçici çözümler:
-- Steam scout 1.0 çalışma zamanını (sniper 3.0 değil) deneyin, libudev kurun, kaynaktan derleyin, veya plugdev grubuna katılın.
-- Sadece Steam ve tarball sürümlerini destekliyoruz, AUR paketini değil.
-- Babble kartları Linux'ta UVC/Seri desteklemez, kablosuz bir yapılandırma kullanın.</value>
+• Steam scout 1.0 çalışma zamanını (sniper 3.0 değil), libudev kurun, kaynaktan derleyin, veya plugdev grubuna katılın.
+• Sadece Steam ve tarball sürümlerini destekliyoruz, AUR paketini değil.
+• Babble kartları Linux'te UVC/Seri port desteklemiyor, kablosuz bir yapılandırma kullanın.</value>
   </data>
 </root>

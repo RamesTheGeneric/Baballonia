@@ -223,10 +223,10 @@
     <value>Kalibrace</value>
   </data>
   <data name="Calibration_Reset_Minimums" xml:space="preserve">
-    <value>Reset Minimums</value>
+    <value>Resetovat Minima</value>
   </data>
   <data name="Calibration_Reset_Maximums" xml:space="preserve">
-    <value>Reset Maximums</value>
+    <value>Resetovat Maxima</value>
   </data>
   <data name="Calibration_Eye_Expressions_Header" xml:space="preserve">
     <value>Výrazy na oči</value>
@@ -316,10 +316,10 @@
     <value>Nainstalujte firmware vašeho zařízení</value>
   </data>
   <data name="Firmware_Flashing_Warning" xml:space="preserve">
-    <value>UPOZORNĚNÍ!! Tato ČINNOST TÝKAJÍCÍ SE VAŠE TRACKER. NEMŮŽE BYL OSOBA PRVNÍ ČAS ZA NEDODRŽTE PO POHYBU TRACKER.</value>
+    <value>VAROVÁNÍ!! Tato ČINNOST TÝKAJÍCÍ SE VAŠE TRACKER. NEMŮŽE BYL OSOBA PRVNÍ ČAS ZA NEDODRŽTE PO POHYBU TRACKER.</value>
   </data>
   <data name="Firmware_Flashing_Button" xml:space="preserve">
-    <value>Flash firmware</value>
+    <value>Flash Firmware</value>
   </data>
   <data name="Firmware_Flashing_Note" xml:space="preserve">
     <value>Toto zabere asi ~10 sekund. Neopouštějte tuto stránku!</value>

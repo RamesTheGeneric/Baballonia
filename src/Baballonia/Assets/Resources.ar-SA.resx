@@ -223,10 +223,10 @@
     <value>معايرة</value>
   </data>
   <data name="Calibration_Reset_Minimums" xml:space="preserve">
-    <value>Reset Minimums</value>
+    <value>إعادة تعيين الحد الأدنى</value>
   </data>
   <data name="Calibration_Reset_Maximums" xml:space="preserve">
-    <value>Reset Maximums</value>
+    <value>إعادة تعيين الحد الأقصى</value>
   </data>
   <data name="Calibration_Eye_Expressions_Header" xml:space="preserve">
     <value>تعبيرات العين</value>
@@ -819,8 +819,8 @@
   </data>
 <data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
     <value>حلول بديلة:
-- جرب بيئة تشغيل Steam scout 1.0 (ليس sniper 3.0)، قم بتثبيت libudev، قم بالبناء من المصدر، أو انضم إلى مجموعة plugdev.
-- نحن ندعم فقط إصدارات Steam و tarball، وليس حزمة AUR.
-- لوحات Babble لا تدعم UVC/التسلسلي على Linux، استخدم تكوينًا لاسلكيًا.</value>
+• جرب وقت تشغيل Steam scout 1.0 (ليس نايبر 3.0)، قم بتثبيت libudev، أو انضم إلى مجموعة plugdev.
+• نحن ندعم فقط إصدارات Steam و tarball، وليست حزمة AUR.
+• لوحات Babble لا تدعم UVC/المنفذ التسلسلي على Linux، استخدم تكوين لاسلكي.</value>
   </data>
 </root>

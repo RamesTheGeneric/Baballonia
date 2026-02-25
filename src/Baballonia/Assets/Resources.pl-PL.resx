@@ -223,10 +223,10 @@
     <value>Kalibracja</value>
   </data>
   <data name="Calibration_Reset_Minimums" xml:space="preserve">
-    <value>Reset Minimums</value>
+    <value>Zresetuj Minimumy</value>
   </data>
   <data name="Calibration_Reset_Maximums" xml:space="preserve">
-    <value>Reset Maximums</value>
+    <value>Zresetuj Maksymalne</value>
   </data>
   <data name="Calibration_Eye_Expressions_Header" xml:space="preserve">
     <value>Wyrażenia oczu</value>
@@ -319,7 +319,7 @@
     <value>UWAGA!! TEN WSPÓŁCZYNNIK ZRESETUJ TWOJE TRACKER. OCZEKUJ SIĘ DO ZEZWOLENIA PIERWSZEGO CZASU PO PASZU TWOJEGO TRACKERA.</value>
   </data>
   <data name="Firmware_Flashing_Button" xml:space="preserve">
-    <value>Flash Firmware</value>
+    <value>Wgraj Firmware</value>
   </data>
   <data name="Firmware_Flashing_Note" xml:space="preserve">
     <value>To zajmie około ~10 sekund. Nie opuszczaj tej strony!</value>
@@ -819,8 +819,8 @@ Zazwyczaj można to łatwo naprawić! Po prostu zainstaluj firmware "Tracking Lo
   </data>
 <data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
     <value>Obejścia:
-- Spróbuj środowiska uruchomieniowego Steam scout 1.0 (nie sniper 3.0), zainstaluj libudev, zbuduj ze źródeł lub dołącz do grupy plugdev.
-- Wspieramy tylko wydania Steam i tarball, nie pakiet AUR.
-- Płyty Babble nie obsługują UVC/Szeregowego na Linuxie, użyj konfiguracji bezprzewodowej.</value>
+• Spróbuj środowisko uruchomieniowe Steam scout 1.0 (nie sniper 3.0), zainstaluj libudev, zbuduj z źródła, lub dołącz do grupy plugdev.
+• Wspieramy tylko wydania Steam i tarball, nie pakietu AUR.
+• Płyty Babble nie obsługują UVC/Szeregowy na Linuksie, użyj konfiguracji bezprzewodowej.</value>
   </data>
 </root>

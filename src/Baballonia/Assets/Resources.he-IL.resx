@@ -223,10 +223,10 @@
     <value>Calibration</value>
   </data>
   <data name="Calibration_Reset_Minimums" xml:space="preserve">
-    <value>Reset Minimums</value>
+    <value>איפוס מינימום</value>
   </data>
   <data name="Calibration_Reset_Maximums" xml:space="preserve">
-    <value>Reset Maximums</value>
+    <value>איפוס מקסימום</value>
   </data>
   <data name="Calibration_Eye_Expressions_Header" xml:space="preserve">
     <value>Eye Expressions</value>
@@ -319,7 +319,7 @@
     <value>CAUTION!! THIS WILL FACTORY RESET YOUR TRACKER. YOU WILL NEED TO PERFORM A FIRST TIME SET UP AFTER FLASHING YOUR TRACKER.</value>
   </data>
   <data name="Firmware_Flashing_Button" xml:space="preserve">
-    <value>Flash Firmware</value>
+    <value>פלאש קושחה</value>
   </data>
   <data name="Firmware_Flashing_Note" xml:space="preserve">
     <value>This will take around ~10 seconds. Don't leave this page!</value>
@@ -818,9 +818,9 @@
     <value>הערה</value>
   </data>
 <data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
-    <value>פתרונות זמניים:
-- נסה את זמן הריצה של Steam scout 1.0 (לא sniper 3.0), התקן libudev, בנה מהמקור, או הצטרף לקבוצת plugdev.
-- אנחנו תומכים רק במהדורות Steam ו-tarball, לא בחבילת AUR.
-- לוחות Babble לא תומכות ב-UVC/סריאלי ב-Linux, השתמש בתצורה אלחוטית.</value>
+    <value>פתרונות:
+• נסה את זמן הרצה Steam scout 1.0 (לא sniper 3.0), התקן libudev, בנה מקוד מקור, או הצטרף לקבוצת plugdev.
+• אנו תומכים רק במהדורות Steam ו-tarball, לא בחבילת AUR.
+• לוחות Babble לא תומכים ב-UVC/סריאלי ב-Linux, השתמש בתצורה אלחוטית.</value>
   </data>
 </root>

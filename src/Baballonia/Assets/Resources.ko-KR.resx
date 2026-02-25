@@ -665,15 +665,15 @@
   </data>
   <data name="Settings_Language_Hungarian" xml:space="preserve">
     <value>Hungarian</value>
-  </data>
+   </data>
   <data name="Settings_Language_Romanian" xml:space="preserve">
     <value>Romanian</value>
   </data>
   <data name="Settings_Language_Vietnamese" xml:space="preserve">
-    <value>Vietnamese</value>
+    <value>최소값 재설정</value>
   </data>
   <data name="Settings_Language_Ukrainian" xml:space="preserve">
-    <value>Ukrainian</value>
+    <value>최대값 재설정</value>
   </data>
   <data name="Settings_Language_Greek" xml:space="preserve">
     <value>Greek</value>

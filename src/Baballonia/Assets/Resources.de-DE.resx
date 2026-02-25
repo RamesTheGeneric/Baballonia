@@ -223,10 +223,10 @@
     <value>Kalibrierung</value>
   </data>
   <data name="Calibration_Reset_Minimums" xml:space="preserve">
-    <value>Reset Minimums</value>
+    <value>Minima zurücksetzen</value>
   </data>
   <data name="Calibration_Reset_Maximums" xml:space="preserve">
-    <value>Reset Maximums</value>
+    <value>Maxima zurücksetzen</value>
   </data>
   <data name="Calibration_Eye_Expressions_Header" xml:space="preserve">
     <value>Augenausdrücke</value>
@@ -819,8 +819,8 @@ Dies ist normalerweise einfach zu beheben! Installieren Sie einfach die "Trackin
   </data>
 <data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
     <value>Problemumgehungen:
-- Versuchen Sie die Steam scout 1.0 Runtime (nicht sniper 3.0), installieren Sie libudev, kompilieren Sie aus dem Quellcode, oder treten Sie der plugdev-Gruppe bei.
-- Wir unterstützen nur Steam- und Tarball-Versionen, nicht das AUR-Paket.
-- Babble-Boards unterstützen kein UVC/Seriell unter Linux, verwenden Sie eine drahtlose Konfiguration.</value>
+• Versuchen Sie die Steam scout 1.0 runtime (nicht sniper 3.0), installieren Sie libudev, bauen Sie aus der Quelle, oder treten Sie der plugdev-Gruppe bei.
+• Wir unterstützen nur Steam- und tarball-Versionen, nicht das AUR-Paket.
+• Babble-Boards unterstützen kein UVC/Seriell unter Linux, verwenden Sie eine drahtlose Konfiguration.</value>
   </data>
 </root>

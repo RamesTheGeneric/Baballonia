@@ -223,10 +223,10 @@
     <value>Calibración</value>
   </data>
   <data name="Calibration_Reset_Minimums" xml:space="preserve">
-    <value>Reset Minimums</value>
+    <value>Restablecer Mínimos</value>
   </data>
   <data name="Calibration_Reset_Maximums" xml:space="preserve">
-    <value>Reset Maximums</value>
+    <value>Restablecer Máximos</value>
   </data>
   <data name="Calibration_Eye_Expressions_Header" xml:space="preserve">
     <value>Expresiones de ojos</value>
@@ -819,8 +819,8 @@ No necesitas ingresar ninguna credencial Wi-Fi. Simplemente cambia el tracker a 
   </data>
 <data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
     <value>Soluciones alternativas:
-- Prueba el runtime Steam scout 1.0 (no sniper 3.0), instala libudev, compila desde el código fuente, o únete al grupo plugdev.
-- Solo soportamos lanzamientos de Steam y tarballs, no el paquete AUR.
-- Las placas Babble no soportan UVC/Serial en Linux, usa una configuración inalámbrica.</value>
+• Prueba el runtime Steam scout 1.0 (no sniper 3.0), instala libudev, compila desde el código fuente, o únete al grupo plugdev.
+• Solo soportamos lanzamientos de Steam y tarball, no el paquete AUR.
+• Las placas Babble no soportan UVC/Serie en Linux, usa una configuración inalámbrica.</value>
   </data>
 </root>

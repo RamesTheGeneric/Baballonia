@@ -1056,9 +1056,9 @@ namespace Baballonia.Assets {
         
         /// <summary>
         ///   Looks up a localized string similar to Workarounds:
-        ///- Try the Steam scout 1.0 runtime (not sniper 3.0), installing libudev, building from source, or joining the plugdev group.
-        ///- We only support Steam and tarball releases, not the AUR package.
-        ///- Babble Boards do not support UVC/Serial on Linux, use a wireless configuration..
+        ///• Try the Steam scout 1.0 runtime (not sniper 3.0), installing libudev, building from source, or joining the plugdev group.
+        ///• We only support Steam and tarball releases, not the AUR package.
+        ///• Babble Boards do not support UVC/Serial on Linux, use a wireless configuration..
         /// </summary>
         public static string Home_Cameras_Linux_Workarounds {
             get {

@@ -223,10 +223,10 @@
     <value>校准</value>
   </data>
   <data name="Calibration_Reset_Minimums" xml:space="preserve">
-    <value>Reset Minimums</value>
+    <value>重置最小值</value>
   </data>
   <data name="Calibration_Reset_Maximums" xml:space="preserve">
-    <value>Reset Maximums</value>
+    <value>重置最大值</value>
   </data>
   <data name="Calibration_Eye_Expressions_Header" xml:space="preserve">
     <value>眼睛表达式</value>
@@ -819,8 +819,8 @@
   </data>
 <data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
     <value>解决方法:
-- 尝试 Steam scout 1.0 运行时（不是 sniper 3.0），安装 libudev，从源代码构建，或加入 plugdev 组。
-- 我们只支持 Steam 和 tarball 版本，不支持 AUR 包。
-- Babble 板在 Linux 上不支持 UVC/串口，请使用无线配置。</value>
+• 尝试 Steam scout 1.0 运行时（不是 sniper 3.0），安装 libudev，从源代码构建，或加入 plugdev 组。
+• 我们只支持 Steam 和 tarball 版本，不支持 AUR 包。
+• Babble 板在 Linux 上不支持 UVC/串口，请使用无线配置。</value>
   </data>
 </root>

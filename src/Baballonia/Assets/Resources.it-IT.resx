@@ -223,10 +223,10 @@
     <value>Calibrazione</value>
   </data>
   <data name="Calibration_Reset_Minimums" xml:space="preserve">
-    <value>Reset Minimums</value>
+    <value>Reimposta Minimi</value>
   </data>
   <data name="Calibration_Reset_Maximums" xml:space="preserve">
-    <value>Reset Maximums</value>
+    <value>Reimposta Massimi</value>
   </data>
   <data name="Calibration_Eye_Expressions_Header" xml:space="preserve">
     <value>Espressioni Occhiali</value>
@@ -819,8 +819,8 @@ Questo di solito è facile da risolvere! Installa semplicemente il firmware "Tra
   </data>
 <data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
     <value>Soluzioni alternative:
-- Prova il runtime Steam scout 1.0 (non sniper 3.0), installa libudev, compila dai sorgenti, o unisciti al gruppo plugdev.
-- Supportiamo solo le release Steam e tarball, non il pacchetto AUR.
-- Le schede Babble non supportano UVC/Seriale su Linux, usa una configurazione wireless.</value>
+• Prova il runtime Steam scout 1.0 (non sniper 3.0), installa libudev, compila dai sorgenti, o unisciti al gruppo plugdev.
+• Supportiamo solo le release Steam e tarball, non il pacchetto AUR.
+• Le schede Babble non supportano UVC/Seriale su Linux, usa una configurazione wireless.</value>
   </data>
 </root>

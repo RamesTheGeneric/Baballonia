@@ -223,10 +223,10 @@
     <value>Kalibrering</value>
   </data>
   <data name="Calibration_Reset_Minimums" xml:space="preserve">
-    <value>Reset Minimums</value>
+    <value>Återställ Minimivärden</value>
   </data>
   <data name="Calibration_Reset_Maximums" xml:space="preserve">
-    <value>Reset Maximums</value>
+    <value>Återställ Maximivärden</value>
   </data>
   <data name="Calibration_Eye_Expressions_Header" xml:space="preserve">
     <value>Ögonuttryck</value>
@@ -319,7 +319,7 @@
     <value>VARNING!! DETTA KOMMER FAKTORA ÅTERSTÄLL DITT BESTÄLLNING. DU BEHÖVER ATT PERFORM EN FÖRSTA TID ÅTERSTÄLL EFTER FASHING DITT BESTÄLLNING.</value>
   </data>
   <data name="Firmware_Flashing_Button" xml:space="preserve">
-    <value>Flash Firmware</value>
+    <value>Flasha Firmware</value>
   </data>
   <data name="Firmware_Flashing_Note" xml:space="preserve">
     <value>Detta kommer att ta cirka ~10 sekunder. Lämna inte denna sida!</value>
@@ -819,8 +819,8 @@ Detta är oftast lätt att fixa! Installera bara "Tracking Loss Fix" firmware ne
   </data>
 <data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
     <value>Temporära lösningar:
-- Prova Steam scout 1.0 runtime (inte sniper 3.0), installera libudev, bygg från källkod, eller gå med i plugdev-gruppen.
-- Vi stöder endast Steam- och tarball-utgåvor, inte AUR-paketet.
-- Babble-kort stöder inte UVC/Seriell på Linux, använd en trådlös konfiguration.</value>
+• Prova Steam scout 1.0 runtime (inte sniper 3.0), installera libudev, bygg från källkoden, eller gå med i plugdev-gruppen.
+• Vi stödjer endast Steam- och tarball-utgåvor, inte AUR-paketet.
+• Babble-kort stödjer inte UVC/Seriell på Linux, använd en trådlös konfiguration.</value>
   </data>
 </root>
