@@ -711,7 +711,6 @@
   <data name="DropOverlay_Dismiss_Button" xml:space="preserve">
     <value>关闭</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Settings_OSC_VRCFT_Warning" xml:space="preserve">
     <value>如果您将Baballonia与VRCFaceTracking一起使用，则无需更改这些端口</value>
   </data>
@@ -738,6 +737,9 @@
   </data>
   <data name="Settings_Advanced_Description" xml:space="preserve">
     <value>高级设置</value>
+  </data>
+  <data name="Godot_Locale" xml:space="preserve">
+    <value>zh_CN</value>
   </data>
   <data name="About_Title_Header" xml:space="preserve">
     <value>关于</value>
@@ -815,7 +817,10 @@
   <data name="Common_Note" xml:space="preserve">
     <value>注意</value>
   </data>
-  <data name="Godot_Locale" xml:space="preserve">
-    <value>zh_CN</value>
+<data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
+    <value>解决方法:
+- 尝试 Steam scout 1.0 运行时（不是 sniper 3.0），安装 libudev，从源代码构建，或加入 plugdev 组。
+- 我们只支持 Steam 和 tarball 版本，不支持 AUR 包。
+- Babble 板在 Linux 上不支持 UVC/串口，请使用无线配置。</value>
   </data>
 </root>

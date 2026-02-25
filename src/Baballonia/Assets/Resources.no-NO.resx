@@ -717,4 +717,10 @@
   <data name="DropOverlay_Dismiss_Button" xml:space="preserve">
     <value>Avvis</value>
   </data>
+<data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
+    <value>Midlertidige løsninger:
+- Prøv Steam scout 1.0 runtime (ikke sniper 3.0), installer libudev, bygg fra kildekoden, eller bli med i plugdev-gruppen.
+- Vi støtter kun Steam- og tarball-utgivelser, ikke AUR-pakken.
+- Babble-kort støtter ikke UVC/Serielt på Linux, bruk en trådløs konfigurasjon.</value>
+  </data>
 </root>

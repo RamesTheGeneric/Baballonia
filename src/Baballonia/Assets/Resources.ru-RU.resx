@@ -711,7 +711,6 @@
   <data name="DropOverlay_Dismiss_Button" xml:space="preserve">
     <value>Отклонить</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Settings_OSC_VRCFT_Warning" xml:space="preserve">
     <value>Если вы используете Baballonia с VRCFaceTracking, вам не нужно изменять эти порты</value>
   </data>
@@ -738,6 +737,9 @@
   </data>
   <data name="Settings_Advanced_Description" xml:space="preserve">
     <value>Расширенные настройки</value>
+  </data>
+  <data name="Godot_Locale" xml:space="preserve">
+    <value>ru</value>
   </data>
   <data name="About_Title_Header" xml:space="preserve">
     <value>О программе</value>
@@ -815,7 +817,10 @@
   <data name="Common_Note" xml:space="preserve">
     <value>Примечание</value>
   </data>
-  <data name="Godot_Locale" xml:space="preserve">
-    <value>ru</value>
+<data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
+    <value>Временные решения:
+- Попробуйте среду выполнения Steam scout 1.0 (не sniper 3.0), установите libudev, соберите из исходного кода или присоединитесь к группе plugdev.
+- Мы поддерживаем только релизы Steam и tarball, а не пакет AUR.
+- Платы Babble не поддерживают UVC/Последовательный порт в Linux, используйте беспроводную конфигурацию.</value>
   </data>
 </root>

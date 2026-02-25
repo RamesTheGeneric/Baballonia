@@ -711,7 +711,6 @@
   <data name="DropOverlay_Dismiss_Button" xml:space="preserve">
     <value>تجاهل</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Settings_OSC_VRCFT_Warning" xml:space="preserve">
     <value>إذا كنت تستخدم Baballonia مع VRCFaceTracking، فلا داعي لتغيير هذه المنافذ</value>
   </data>
@@ -738,6 +737,9 @@
   </data>
   <data name="Settings_Advanced_Description" xml:space="preserve">
     <value>الإعدادات المتقدمة</value>
+  </data>
+  <data name="Godot_Locale" xml:space="preserve">
+    <value>ar</value>
   </data>
   <data name="About_Title_Header" xml:space="preserve">
     <value>حول</value>
@@ -815,7 +817,10 @@
   <data name="Common_Note" xml:space="preserve">
     <value>ملاحظة</value>
   </data>
-  <data name="Godot_Locale" xml:space="preserve">
-    <value>ar</value>
+<data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
+    <value>حلول بديلة:
+- جرب بيئة تشغيل Steam scout 1.0 (ليس sniper 3.0)، قم بتثبيت libudev، قم بالبناء من المصدر، أو انضم إلى مجموعة plugdev.
+- نحن ندعم فقط إصدارات Steam و tarball، وليس حزمة AUR.
+- لوحات Babble لا تدعم UVC/التسلسلي على Linux، استخدم تكوينًا لاسلكيًا.</value>
   </data>
 </root>

@@ -711,7 +711,6 @@
   <data name="DropOverlay_Dismiss_Button" xml:space="preserve">
     <value>Refuser</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Settings_OSC_VRCFT_Warning" xml:space="preserve">
     <value>Si vous utilisez Baballonia avec VRCFaceTracking, il n'est pas nécessaire de modifier ces ports</value>
   </data>
@@ -738,6 +737,9 @@
   </data>
   <data name="Settings_Advanced_Description" xml:space="preserve">
     <value>Paramètres avancés</value>
+  </data>
+  <data name="Godot_Locale" xml:space="preserve">
+    <value>fr</value>
   </data>
   <data name="About_Title_Header" xml:space="preserve">
     <value>À propos</value>
@@ -815,7 +817,10 @@ Ceci est généralement facile à corriger ! Installez simplement le firmware "T
   <data name="Common_Note" xml:space="preserve">
     <value>Note</value>
   </data>
-  <data name="Godot_Locale" xml:space="preserve">
-    <value>fr</value>
+<data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
+    <value>Solutions de contournement :
+- Essayez le runtime Steam scout 1.0 (pas sniper 3.0), installez libudev, compilez depuis les sources, ou rejoignez le groupe plugdev.
+- Nous ne supportons que les versions Steam et tarball, pas le paquet AUR.
+- Les cartes Babble ne supportent pas UVC/Série sur Linux, utilisez une configuration sans fil.</value>
   </data>
 </root>

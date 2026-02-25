@@ -823,4 +823,10 @@ This is usually easy to fix! Just install the “Tracking Loss Fix” firmware b
   <data name="Common_Note" xml:space="preserve">
     <value>Note</value>
   </data>
+  <data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
+    <value>Workarounds:
+- Try the Steam scout 1.0 runtime (not sniper 3.0), installing libudev, building from source, or joining the plugdev group.
+- We only support Steam and tarball releases, not the AUR package.
+- Babble Boards do not support UVC/Serial on Linux, use a wireless configuration.</value>
+  </data>
 </root>

@@ -711,7 +711,6 @@
   <data name="DropOverlay_Dismiss_Button" xml:space="preserve">
     <value>Dismiss</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Settings_OSC_VRCFT_Warning" xml:space="preserve">
     <value>As jy Baballonia met VRCFaceTracking gebruik, hoef jy nie hierdie poorte te verander nie</value>
   </data>
@@ -738,6 +737,9 @@
   </data>
   <data name="Settings_Advanced_Description" xml:space="preserve">
     <value>Gevorderde instellings</value>
+  </data>
+  <data name="Godot_Locale" xml:space="preserve">
+    <value>af</value>
   </data>
   <data name="About_Title_Header" xml:space="preserve">
     <value>Oor</value>
@@ -815,7 +817,10 @@ Dit is gewoon maklik om reg te maak! Installeer net die "Tracking Loss Fix" firm
   <data name="Common_Note" xml:space="preserve">
     <value>Nota</value>
   </data>
-  <data name="Godot_Locale" xml:space="preserve">
-    <value>af</value>
+<data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
+    <value>Tydelike oplossings:
+- Probeer die Steam scout 1.0 runtime (nie sniper 3.0 nie), installeer libudev, bou vanaf die bronkode, of sluit aan by die plugdev-groep.
+- Ons ondersteun slegs Steam- en tarball-vrystellings, nie die AUR-pakket nie.
+- Babble-borde ondersteun nie UVC/Serieel op Linux nie, gebruik 'n draadlose konfigurasie.</value>
   </data>
 </root>

@@ -5,6 +5,7 @@ using System.IO.Ports;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
+using Baballonia.Assets;
 using Baballonia.Contracts;
 using Microsoft.Extensions.Logging;
 using OpenCvSharp;
@@ -219,15 +220,8 @@ public sealed class DesktopDeviceEnumerator(ILogger<DesktopDeviceEnumerator> log
         catch (Exception ex)
         {
             Logger.LogWarning($"Unable to probe UVC devices: {ex.Message}");
-
-            const string workarounds = """
-        Workarounds:
-        - Try the Steam scout 1.0 runtime (not sniper 3.0), installing libudev, building from source, or joining the plugdev group.
-        - We only support Steam and tarball releases, not the AUR package.
-        - Babble Boards do not support UVC/Serial on Linux, use a wireless configuration.
-        """;
-            Logger.LogWarning(workarounds);
-            cameraDict.Add($"Unable to probe UVC devices. {workarounds}", "error");
+            Logger.LogWarning(Resources.Home_Cameras_Linux_Workarounds);
+            cameraDict.Add($"Unable to probe UVC devices. {Resources.Home_Cameras_Linux_Workarounds}", "error");
         }
     }
 
