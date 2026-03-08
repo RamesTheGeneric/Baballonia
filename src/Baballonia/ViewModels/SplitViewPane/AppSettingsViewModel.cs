@@ -61,7 +61,7 @@ public partial class AppSettingsViewModel : ViewModelBase
     private bool _useGPU;
 
     [ObservableProperty]
-    [property: SavedSetting("AppSettings_SteamvrAutoStart", true)]
+    [property: SavedSetting("AppSettings_SteamVRAutoStart", true)]
     private bool _steamvrAutoStart;
 
     [ObservableProperty]
@@ -180,14 +180,14 @@ public partial class AppSettingsViewModel : ViewModelBase
 
     partial void OnSteamvrAutoStartChanged(bool value)
     {
-        var readValue = SettingsService.ReadSetting("AppSettings_SteamvrAutoStart", value);
+        var readValue = SettingsService.ReadSetting("AppSettings_SteamVRAutoStart", value);
         if (readValue == value || OpenVrService == null)
             return;
 
         try
         {
            OpenVrService.SteamvrAutoStart = value;
-           SettingsService.SaveSetting("AppSettings_SteamvrAutoStart", value);
+           SettingsService.SaveSetting("AppSettings_SteamVRAutoStart", value);
         }
         catch (Exception e)
         {
