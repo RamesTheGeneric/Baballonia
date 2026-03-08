@@ -20,22 +20,19 @@ public class VFTCaptureFactory(ILoggerFactory loggerFactory) : ICaptureFactory
 
     public bool CanConnect(string address)
     {
+        var lowered = address.ToLower();
+
         if (OperatingSystem.IsWindows())
         {
-            return true;
+            return !lowered.StartsWith("com");
         }
-
-        if (OperatingSystem.IsLinux())
+        else if (OperatingSystem.IsLinux())
         {
-            var lowered = address.ToLower();
             return lowered.StartsWith("/dev/video");
         }
 
         return false;
     }
 
-    public string GetProviderName()
-    {
-        return nameof(VFTCapture);
-    }
+    public string GetProviderName() => nameof(VFTCapture);
 }
