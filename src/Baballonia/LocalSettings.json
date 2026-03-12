@@ -1,6 +1,5 @@
 {
   "VRC_UseNativeTracking": false,
-  "VRC_SelectedModuleMode": "Face",
   "SecondsWarningRead": false,
   "ShowOnboardingOnStartup": true,
   "OSCInPort": 8889,

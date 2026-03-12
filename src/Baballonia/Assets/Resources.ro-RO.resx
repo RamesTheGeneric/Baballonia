@@ -850,7 +850,6 @@ Acest lucru este de obicei ușor de reparat! Doar instalați firmware-ul "Tracki
 - Suportăm doar lansările Steam și tarball, nu pachetul AUR.
 - Plăcile Babble nu suportă UVC/Seriale pe Linux, folosiți o configurație wireless.</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Settings_ShareData_Header" xml:space="preserve">
     <value>Partajați date ochi/feță</value>
   </data>
@@ -862,5 +861,18 @@ Acest lucru este de obicei ușor de reparat! Doar instalați firmware-ul "Tracki
   </data>
   <data name="Settings_DFR_Description" xml:space="preserve">
     <value>Activați Pimax4All dynamic foveated rendering pentru titluri selectate</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Firmware_Mode_Both" xml:space="preserve">
+    <value>Ambele</value>
+  </data>
+  <data name="Firmware_Mode_Eyes" xml:space="preserve">
+    <value>Ochi</value>
+  </data>
+  <data name="Firmware_Mode_Face" xml:space="preserve">
+    <value>Față</value>
+  </data>
+  <data name="Firmware_Mode_None" xml:space="preserve">
+    <value>Niciunul</value>
   </data>
 </root>

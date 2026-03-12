@@ -1,4 +1,5 @@
-﻿using Baballonia.Contracts;
+﻿using Baballonia.Assets;
+using Baballonia.Contracts;
 using Baballonia.Helpers;
 using CommunityToolkit.Mvvm.ComponentModel;
 using System;
@@ -16,12 +17,17 @@ public partial class VrcViewModel : ViewModelBase
     private bool _useNativeVrcEyeTracking;
 
     [ObservableProperty]
-    private string? _selectedModuleMode = "Face";
+    private string? _selectedModuleMode = Resources.Firmware_Mode_Face;
 
     [ObservableProperty]
     private bool _vrcftDetected;
 
-    public ObservableCollection<string> ModuleModeOptions { get; set; } = ["Both", "Face", "Eyes", "Disabled"];
+    public ObservableCollection<string> ModuleModeOptions { get; set; } = [
+        Resources.Firmware_Mode_Both,
+        Resources.Firmware_Mode_Face,
+        Resources.Firmware_Mode_Eyes,
+        Resources.Firmware_Mode_None
+    ];
 
     private string _baballoniaModulePath;
 
@@ -61,8 +67,8 @@ public partial class VrcViewModel : ViewModelBase
         {
             SelectedModuleMode = config.IsEyeSupported switch
             {
-                true => config.IsFaceSupported ? "Both" : "Eyes",
-                false => config.IsFaceSupported ? "Face" : "Disabled"
+                true => config.IsFaceSupported ? Resources.Firmware_Mode_Both : Resources.Firmware_Mode_Eyes,
+                false => config.IsFaceSupported ? Resources.Firmware_Mode_Face : Resources.Firmware_Mode_None
             };
         }
 
@@ -84,13 +90,12 @@ public partial class VrcViewModel : ViewModelBase
         try
         {
             if (!TryGetModuleConfig(out var oldConfig)) return;
-
             var newConfig = value switch
             {
-                "Both" => new ModuleConfig(oldConfig!.Host, oldConfig.Port, true, true),
-                "Eyes" => new ModuleConfig(oldConfig!.Host, oldConfig.Port, true, false),
-                "Face" => new ModuleConfig(oldConfig!.Host, oldConfig.Port, false, true),
-                "Disabled" => new ModuleConfig(oldConfig!.Host, oldConfig.Port, false, false),
+                var v when v == Resources.Firmware_Mode_Both => new ModuleConfig(oldConfig!.Host, oldConfig.Port, true, true),
+                var v when v == Resources.Firmware_Mode_Eyes => new ModuleConfig(oldConfig!.Host, oldConfig.Port, true, false),
+                var v when v == Resources.Firmware_Mode_Face => new ModuleConfig(oldConfig!.Host, oldConfig.Port, false, true),
+                var v when v == Resources.Firmware_Mode_None => new ModuleConfig(oldConfig!.Host, oldConfig.Port, false, false),
                 _ => throw new InvalidOperationException()
             };
             await WriteModuleConfig(newConfig);

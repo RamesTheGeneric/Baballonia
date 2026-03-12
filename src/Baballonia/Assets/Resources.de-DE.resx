@@ -850,7 +850,6 @@ Dies ist normalerweise einfach zu beheben! Installieren Sie einfach die "Trackin
 • Wir unterstützen nur Steam- und tarball-Versionen, nicht das AUR-Paket.
 • Babble-Boards unterstützen kein UVC/Seriell unter Linux, verwenden Sie eine drahtlose Konfiguration.</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Settings_ShareData_Header" xml:space="preserve">
     <value>Augen-/Gesichtsdaten teilen</value>
   </data>
@@ -862,5 +861,18 @@ Dies ist normalerweise einfach zu beheben! Installieren Sie einfach die "Trackin
   </data>
   <data name="Settings_DFR_Description" xml:space="preserve">
     <value>Pimax4All dynamische Foveated Rendering für ausgewählte Titel aktivieren</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Firmware_Mode_Both" xml:space="preserve">
+    <value>Beide</value>
+  </data>
+  <data name="Firmware_Mode_Eyes" xml:space="preserve">
+    <value>Augen</value>
+  </data>
+  <data name="Firmware_Mode_Face" xml:space="preserve">
+    <value>Gesicht</value>
+  </data>
+  <data name="Firmware_Mode_None" xml:space="preserve">
+    <value>Keine</value>
   </data>
 </root>

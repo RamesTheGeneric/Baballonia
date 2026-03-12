@@ -850,7 +850,6 @@ Detta är oftast lätt att fixa! Installera bara "Tracking Loss Fix" firmware ne
 • Vi stödjer endast Steam- och tarball-utgåvor, inte AUR-paketet.
 • Babble-kort stödjer inte UVC/Seriell på Linux, använd en trådlös konfiguration.</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Settings_ShareData_Header" xml:space="preserve">
     <value>Dela ögon-/ansiktsdata</value>
   </data>
@@ -862,5 +861,18 @@ Detta är oftast lätt att fixa! Installera bara "Tracking Loss Fix" firmware ne
   </data>
   <data name="Settings_DFR_Description" xml:space="preserve">
     <value>Aktivera Pimax4All dynamisk foveated rendering för valda titlar</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Firmware_Mode_Both" xml:space="preserve">
+    <value>Båda</value>
+  </data>
+  <data name="Firmware_Mode_Eyes" xml:space="preserve">
+    <value>Ögon</value>
+  </data>
+  <data name="Firmware_Mode_Face" xml:space="preserve">
+    <value>Ansikte</value>
+  </data>
+  <data name="Firmware_Mode_None" xml:space="preserve">
+    <value>Inget</value>
   </data>
 </root>

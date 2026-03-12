@@ -762,4 +762,16 @@
   <data name="Settings_DFR_Description" xml:space="preserve">
     <value>Aktiver Pimax4All dynamisk foveated rendering for valgte titler</value>
   </data>
+  <data name="Firmware_Mode_Both" xml:space="preserve">
+    <value>Begge</value>
+  </data>
+  <data name="Firmware_Mode_Eyes" xml:space="preserve">
+    <value>Øyne</value>
+  </data>
+  <data name="Firmware_Mode_Face" xml:space="preserve">
+    <value>Ansikt</value>
+  </data>
+  <data name="Firmware_Mode_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
 </root>

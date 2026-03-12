@@ -850,7 +850,6 @@ Bạn không cần nhập thông tin xác thực Wi-Fi. Chỉ cần chuyển tra
 - Chúng tôi chỉ hỗ trợ các bản phát hành Steam và tarball, không phải gói AUR.
 - Bo mạch Babble không hỗ trợ UVC/Sê-ri trên Linux, sử dụng cấu hình không dây.</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Settings_ShareData_Header" xml:space="preserve">
     <value>Chia sẻ dữ liệu mắt/khuôn mặt</value>
   </data>
@@ -862,5 +861,18 @@ Bạn không cần nhập thông tin xác thực Wi-Fi. Chỉ cần chuyển tra
   </data>
   <data name="Settings_DFR_Description" xml:space="preserve">
     <value>Bật Pimax4All dynamic foveated rendering cho các tiêu đề đã chọn</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Firmware_Mode_Both" xml:space="preserve">
+    <value>Cả hai</value>
+  </data>
+  <data name="Firmware_Mode_Eyes" xml:space="preserve">
+    <value>Mắt</value>
+  </data>
+  <data name="Firmware_Mode_Face" xml:space="preserve">
+    <value>Khuôn mặt</value>
+  </data>
+  <data name="Firmware_Mode_None" xml:space="preserve">
+    <value>Không có</value>
   </data>
 </root>

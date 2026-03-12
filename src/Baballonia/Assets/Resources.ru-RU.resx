@@ -850,7 +850,6 @@
 • Мы поддерживаем только релизы Steam и tarball, не пакет AUR.
 • Платы Babble не поддерживают UVC/Последовательный порт в Linux, используйте беспроводную конфигурацию.</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Settings_ShareData_Header" xml:space="preserve">
     <value>Поделиться данными глаз/лица</value>
   </data>
@@ -862,5 +861,18 @@
   </data>
   <data name="Settings_DFR_Description" xml:space="preserve">
     <value>Включить динамическую фовеацию Pimax4All для выбранных игр</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Firmware_Mode_Both" xml:space="preserve">
+    <value>Оба</value>
+  </data>
+  <data name="Firmware_Mode_Eyes" xml:space="preserve">
+    <value>Глаза</value>
+  </data>
+  <data name="Firmware_Mode_Face" xml:space="preserve">
+    <value>Лицо</value>
+  </data>
+  <data name="Firmware_Mode_None" xml:space="preserve">
+    <value>Нет</value>
   </data>
 </root>

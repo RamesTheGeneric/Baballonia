@@ -851,16 +851,28 @@ This is usually easy to fix! Just install the "Tracking Loss Fix" firmware below
 • Babble Boards do not support UVC/Serial on Linux, use a wireless configuration.</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Settings_ShareData_Header" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Settings_ShareData_Header" xml:space="preserve">
+    <value>Share eye/face data</value>
   </data>
-  <data name="Settings_ShareData_Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Settings_ShareData_Description" xml:space="preserve">
+    <value>Opt-in to sharing anonymous eye/face data to improve our algorithms</value>
   </data>
-  <data name="Settings_DFR_Header" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Settings_DFR_Header" xml:space="preserve">
+    <value>Use DFR</value>
   </data>
-  <data name="Settings_DFR_Description" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Settings_DFR_Description" xml:space="preserve">
+    <value>Enable Pimax4All dynamic foveated rendering for selected titles</value>
+  </data>
+  <data name="Firmware_Mode_Both" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="Firmware_Mode_Eyes" xml:space="preserve">
+    <value>Eyes</value>
+  </data>
+  <data name="Firmware_Mode_Face" xml:space="preserve">
+    <value>Face</value>
+  </data>
+  <data name="Firmware_Mode_None" xml:space="preserve">
+    <value>None</value>
   </data>
 </root>

@@ -722,6 +722,42 @@ namespace Baballonia.Assets {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Both.
+        /// </summary>
+        public static string Firmware_Mode_Both {
+            get {
+                return ResourceManager.GetString("Firmware_Mode_Both", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Eyes.
+        /// </summary>
+        public static string Firmware_Mode_Eyes {
+            get {
+                return ResourceManager.GetString("Firmware_Mode_Eyes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Face.
+        /// </summary>
+        public static string Firmware_Mode_Face {
+            get {
+                return ResourceManager.GetString("Firmware_Mode_Face", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to None.
+        /// </summary>
+        public static string Firmware_Mode_None {
+            get {
+                return ResourceManager.GetString("Firmware_Mode_None", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Set Mode.
         /// </summary>
         public static string Firmware_ModeSetButton_Default {

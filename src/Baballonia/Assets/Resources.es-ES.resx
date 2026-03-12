@@ -850,7 +850,6 @@ No necesitas ingresar ninguna credencial Wi-Fi. Simplemente cambia el tracker a 
 • Solo soportamos lanzamientos de Steam y tarball, no el paquete AUR.
 • Las placas Babble no soportan UVC/Serie en Linux, usa una configuración inalámbrica.</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Settings_ShareData_Header" xml:space="preserve">
     <value>Compartir datos de ojos/cara</value>
   </data>
@@ -862,5 +861,18 @@ No necesitas ingresar ninguna credencial Wi-Fi. Simplemente cambia el tracker a 
   </data>
   <data name="Settings_DFR_Description" xml:space="preserve">
     <value>Habilitar renderizado dinámico con foveación Pimax4All para títulos seleccionados</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Firmware_Mode_Both" xml:space="preserve">
+    <value>Ambos</value>
+  </data>
+  <data name="Firmware_Mode_Eyes" xml:space="preserve">
+    <value>Ojos</value>
+  </data>
+  <data name="Firmware_Mode_Face" xml:space="preserve">
+    <value>Cara</value>
+  </data>
+  <data name="Firmware_Mode_None" xml:space="preserve">
+    <value>Ninguno</value>
   </data>
 </root>

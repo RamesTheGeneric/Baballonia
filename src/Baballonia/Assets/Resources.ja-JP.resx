@@ -850,7 +850,6 @@ Wi-Fi認証情報を入力する必要はありません。トラッカーを「
 • Steam と tarball リリースのみサポートしており、AUR パッケージはサポートしていません。
 • Babble ボードは Linux で UVC/シリアルをサポートしていないため、ワイヤレス構成を使用してください。</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Settings_ShareData_Header" xml:space="preserve">
     <value>目/顔データを共有</value>
   </data>
@@ -862,5 +861,18 @@ Wi-Fi認証情報を入力する必要はありません。トラッカーを「
   </data>
   <data name="Settings_DFR_Description" xml:space="preserve">
     <value>選択されたタイトルでPimax4All動的フォベーションレンダリングを有効にする</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Firmware_Mode_Both" xml:space="preserve">
+    <value>両方</value>
+  </data>
+  <data name="Firmware_Mode_Eyes" xml:space="preserve">
+    <value>目</value>
+  </data>
+  <data name="Firmware_Mode_Face" xml:space="preserve">
+    <value>顔</value>
+  </data>
+  <data name="Firmware_Mode_None" xml:space="preserve">
+    <value>なし</value>
   </data>
 </root>

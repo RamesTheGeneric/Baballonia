@@ -862,4 +862,16 @@ This is usually easy to fix! Just install the “Tracking Loss Fix” firmware b
   <data name="Settings_DFR_Description" xml:space="preserve">
     <value>Enable Pimax4All dynamic foveated rendering for select titles</value>
   </data>
+  <data name="Firmware_Mode_Both" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="Firmware_Mode_Eyes" xml:space="preserve">
+    <value>Eyes</value>
+  </data>
+  <data name="Firmware_Mode_Face" xml:space="preserve">
+    <value>Face</value>
+  </data>
+  <data name="Firmware_Mode_None" xml:space="preserve">
+    <value>None</value>
+  </data>
 </root>

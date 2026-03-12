@@ -850,7 +850,6 @@ Questo di solito è facile da risolvere! Installa semplicemente il firmware "Tra
 • Supportiamo solo le release Steam e tarball, non il pacchetto AUR.
 • Le schede Babble non supportano UVC/Seriale su Linux, usa una configurazione wireless.</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Settings_ShareData_Header" xml:space="preserve">
     <value>Condividi dati occhi/viso</value>
   </data>
@@ -862,5 +861,18 @@ Questo di solito è facile da risolvere! Installa semplicemente il firmware "Tra
   </data>
   <data name="Settings_DFR_Description" xml:space="preserve">
     <value>Abilita il rendering dinamico con foveazione Pimax4All per i titoli selezionati</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Firmware_Mode_Both" xml:space="preserve">
+    <value>Entrambi</value>
+  </data>
+  <data name="Firmware_Mode_Eyes" xml:space="preserve">
+    <value>Occhi</value>
+  </data>
+  <data name="Firmware_Mode_Face" xml:space="preserve">
+    <value>Viso</value>
+  </data>
+  <data name="Firmware_Mode_None" xml:space="preserve">
+    <value>Nessuno</value>
   </data>
 </root>

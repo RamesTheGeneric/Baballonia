@@ -850,7 +850,6 @@
 • نحن ندعم فقط إصدارات Steam و tarball، وليست حزمة AUR.
 • لوحات Babble لا تدعم UVC/المنفذ التسلسلي على Linux، استخدم تكوين لاسلكي.</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Settings_ShareData_Header" xml:space="preserve">
     <value>مشاركة بيانات العين/الوجه</value>
   </data>
@@ -862,5 +861,18 @@
   </data>
   <data name="Settings_DFR_Description" xml:space="preserve">
     <value>تمكين Pimax4All العرض الديناميكي foveated للعناوين المحددة</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Firmware_Mode_Both" xml:space="preserve">
+    <value>كلاهما</value>
+  </data>
+  <data name="Firmware_Mode_Eyes" xml:space="preserve">
+    <value>العيون</value>
+  </data>
+  <data name="Firmware_Mode_Face" xml:space="preserve">
+    <value>الوجه</value>
+  </data>
+  <data name="Firmware_Mode_None" xml:space="preserve">
+    <value>لا شيء</value>
   </data>
 </root>

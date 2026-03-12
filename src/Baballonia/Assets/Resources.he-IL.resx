@@ -850,7 +850,6 @@
 • אנו תומכים רק במהדורות Steam ו-tarball, לא בחבילת AUR.
 • לוחות Babble לא תומכים ב-UVC/סריאלי ב-Linux, השתמש בתצורה אלחוטית.</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Settings_ShareData_Header" xml:space="preserve">
     <value>שתף נתוני עיניים/פנים</value>
   </data>
@@ -862,5 +861,18 @@
   </data>
   <data name="Settings_DFR_Description" xml:space="preserve">
     <value>אפשר Pimax4All רינדור דינמי עם foveation עבור כותרות נבחרות</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Firmware_Mode_Both" xml:space="preserve">
+    <value>שניהם</value>
+  </data>
+  <data name="Firmware_Mode_Eyes" xml:space="preserve">
+    <value>עיניים</value>
+  </data>
+  <data name="Firmware_Mode_Face" xml:space="preserve">
+    <value>פנים</value>
+  </data>
+  <data name="Firmware_Mode_None" xml:space="preserve">
+    <value>ללא</value>
   </data>
 </root>
